@@ -22,7 +22,7 @@ For [KiTTI](http://www.cvlibs.net/datasets/kitti/raw_data.php), first download t
 ```bash
 python data/prepare_train_data.py /path/to/KITTI_raw --dataset-format kitti_raw --static-frames ./data/static_frames.txt  --dump-root /path/to/KITTI_formatted --height 128 --width 416 --num-threads 8
 ```
-
+https://s3.eu-central-1.amazonaws.com/avg-kitti/raw_data_downloader.zip
 ### Odometry
 This script generates only training data.  
 Remove '2011_09_26_drive_0067' sequence because there is no data at kitti server.
